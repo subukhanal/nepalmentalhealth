@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editable Webpage with Custom Borders</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            height: 100%;
+            <!--padding: 1in 1in; /* .5 inches top & bottom, 1 inch left & right */
+            box-sizing: border-box;
+            border: 0.5in 1in solid #221b59;
+            border-style:solid;
+	    border-color:#221b59;
+	    border-left-width:100px;
+	    border-right-width:100px;
+	    border-top-width:45px;
+	    border-bottom-width:25px;
+	    display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .editable-section {
+            width: 100%;
+            height: 100%;
+            background-color: #f9f9f9f;
+            padding: 10px;
+            box-sizing: border-box;
+            border-radius: 8px;
+            outline: none;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="editable-section" contenteditable="true">
+        <h1>About US</h1>
+        <p>This is a platform dedicated to promoting mental health awareness and support in Nepal. Mental health is an essential yet often overlooked 
+	part of well-being, and in Nepal, it faces significant challenges. With limited awareness, stigma, and a lack of accessible services,
+	many individuals have difficulty accessing mental health services. The mental health need is immense in country like Nepal which is
+	geographically complex, and has seen years of war durin Maoist insurgency, the big earthquakes, and the various natural disasters that frequently
+	affect the lives of general people and add burden, not only financial but more significantly psychological. Most of our youths find the country 
+	with no scope for thier future ambitions and are compelled to migrate abroad. Many time the families who are left behind have to suffer the 
+	consequences of migration. Upto now, in Nepal there are only 241 registered psychiatrists and around 35 clinical psychologist to serve 30 million
+	people. The prevalence of mental health issues is as high. According to the National Mental Health Survey conducted in 2019 and 2020 reports 
+	that 23% of the Nepali population are seeking treatment for mental health issues. The sucide rate is nearing 20 per day with 7000 people dying
+	every year. The allocated budget for mental health is very minimal.  The ratio of mental health professionals to general population is staggering
+	In Nepal. Mental health in nepal is thus plaqued by dire shortage of human resouces, the priority of the government is still in physical
+	infrastructure and other developmental tasks, stigma is prevalent in nepalese society and is a buring issue in rural communities where
+	rituals such as "chhaupadi" is still practiced. 
+	well-being.</p>
+
+    </p>Through evidence-based information, expert insights, and personal stories, we aim to create a space where mental health is prioritized, 
+	understood, and accessible to all.
+    </p>
+<p> 	platform offers a wide range of resources, from educational content to professional guidance, all designed to foster a culture of
+      	compassion, understanding, and mental well-being. Whether you are a professional in the field or someone looking for support, 
+	our goal is to empower you with the tools and knowledge needed to navigate mental health challenges effectively.</p>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editable Webpage with Custom Borders</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            height: 100%;
+            <!--padding: 1in 1in; /* .5 inches top & bottom, 1 inch left & right */
+            box-sizing: border-box;
+            border: 0.5in 1in solid #221b59;
+            border-style:solid;
+	    border-color:#221b59;
+	    border-left-width:100px;
+	    border-right-width:100px;
+	    border-top-width:45px;
+	    border-bottom-width:25px;
+	    display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .editable-section {
+            width: 100%;
+            height: 100%;
+            background-color: #f9f9f9f;
+            padding: 10px;
+            box-sizing: border-box;
+            border-radius: 8px;
+            outline: none;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="editable-section" contenteditable="true">
+        <h1>Our Values</h1>
+
+<html>
+ <table style="width: 100%> 
+  
+    <colgroup>
+       <col span="1" style="width: 50%;">
+       <!--<col span="1" style="width: 70%;">-->
+       <!--<col span="1" style="width: 15%;">-->
+    
+<p><align="justify">At the heart of our platform is a commitment to improving mental health in Nepal by offering a range of services tailored to meet the needs of mental health professionals, individuals, and communities. Our services are designed to bridge gaps, provide crucial information, and foster collaboration in the field of mental health.
+
+ <ol><strong>Educational Resources:</strong> We provide a wealth of evidence-based articles, blogs, and research papers that cover various mental health topics, from common conditions like depression and anxiety to the mental health impacts of crises unique to Nepal. Our resources are aimed at mental health professionals, educators, and the general public, offering practical insights that are easy to apply in real-world scenarios.
+ </ol>
+<ol><strong>Professional Development for Mental Health Practitioners</strong> Our platform offers tools and guidance for mental health professionals seeking to expand their knowledge and skills. Through online workshops, training programs, and access to expert advice, we help practitioners stay updated with the latest practices and advancements in the field, ensuring they are better equipped to handle the challenges of working in Nepal’s diverse and often difficult environments.
+</ol>
+<ol><strong>Support and Collaboration for Professionals</strong> We foster a community where mental health professionals can share experiences, challenges, and solutions. By promoting collaboration, our platform helps practitioners feel connected, supported, and empowered in their efforts, regardless of geographical or financial barriers. We offer forums and discussion groups that allow professionals to engage with one another and learn from shared experiences.
+</ol>
+<ol><strong>Crisis and Disaster Mental Health Support</strong> Our site is equipped with resources that address mental health in the context of Nepal’s frequent natural disasters, such as earthquakes, floods, and landslides, as well as the lasting effects of the Maoist conflict. We offer specific guidance on crisis intervention, trauma support, and long-term recovery for both individuals and communities affected by these events.
+</ol>
+<ol><strong>Public Awareness and Advocacy</strong> We are committed to raising public awareness about the importance of mental health care in Nepal. Through campaigns, stories, and informational content, we aim to reduce stigma and promote a culture of understanding and empathy. We also advocate for systemic change, pushing for improved mental health infrastructure and resources at both community and national levels.</p>
+</ol>
+</p>
+</align>
+  </colgroup>
+</table>
+</html>

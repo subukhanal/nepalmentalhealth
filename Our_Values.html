@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editable Webpage with Custom Borders</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            height: 100%;
+            <!--padding: 1in 1in; /* .5 inches top & bottom, 1 inch left & right */
+            box-sizing: border-box;
+            border: 0.5in 1in solid #221b59;
+            border-style:solid;
+	    border-color:#221b59;
+	    border-left-width:100px;
+	    border-right-width:100px;
+	    border-top-width:45px;
+	    border-bottom-width:25px;
+	    display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .editable-section {
+            width: 100%;
+            height: 100%;
+            background-color: #f9f9f9f;
+            padding: 10px;
+            box-sizing: border-box;
+            border-radius: 8px;
+            outline: none;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="editable-section" contenteditable="true">
+<h1>Our Values</p>
+        
+
+<h3><strong>We Value which highlights the mission and vision of Nepal Mental Health.</strong></h3>
+
+<ol>Empowering Mental Health Professionals</strong> Our website serves as a dedicated resource for mental health professionals in Nepal, offering evidence-based articles, tools, and best practices to navigate the unique challenges they face in their work. Whether dealing with financial constraints, geographical isolation, or the aftermath of natural disasters, we provide essential support to empower those working on the frontlines of mental health.
+</ol>
+<ol>Accessible Mental Health Information</strong> We offer clear, science-backed information on mental health conditions, treatment options, and self-care strategies. By breaking down complex topics into easily digestible content, we make mental health knowledge accessible to everyone, from professionals to everyday readers seeking guidance.
+</ol>
+<ol>Fostering Community and Connection</strong> Our platform connects individuals across Nepal who are passionate about mental health. Through blogs, forums, and collaborative projects, we create a community that encourages open dialogue, reduces stigma, and fosters support among mental health professionals, patients, and the general public.
+</ol>
+<ol>Addressing Mental Health in Crisis Situations</strong> We specialize in addressing the mental health impacts of crises specific to Nepal, including natural disasters and the long-term effects of the Maoist movement. Our content is tailored to help both professionals and individuals navigate these difficult circumstances with resilience and strength.
+</ol>
+<ol>A Platform for Change</strong> We aim to inspire systemic change in how mental health is viewed and treated in Nepal. By raising awareness, educating the public, and advocating for better resources and support systems, our website is a catalyst for improving mental health infrastructure nationwide.
+</ol>
